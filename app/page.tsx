@@ -193,7 +193,7 @@ export default function DeciderAI() {
               <textarea
                 value={context}
                 onChange={(e) => setContext(e.target.value)}
-                placeholder="Give us your context (Budget, Location, Preferences) My budget is $1500, I live in Colombo, I prefer Windows over Mac.'"
+                placeholder="Give us your context (Budget, Location, Preferences) My budget is LKR 150000, I live in Colombo, I prefer Windows over Mac.'"
                 className="w-full bg-black/40 border border-white/10 rounded-xl pl-5 pr-4 py-4 text-white placeholder-gray-500 focus:outline-none focus:border-blue-500/50 focus:ring-2 focus:ring-blue-500/20 transition-all"
               />
 
